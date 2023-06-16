@@ -9,6 +9,7 @@ import 'config/query_model.dart';
 import 'config/response_model.dart';
 
 class Api {
+  static String jwtKey = "lantenet-jwt-token";
   static String jwt = "";
 
   Map<String, String> imageHeader = {
